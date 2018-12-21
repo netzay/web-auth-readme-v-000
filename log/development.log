@@ -1322,3 +1322,11 @@ Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"2xdL/RxSZczGDDeklLIZQ8p7HE2ndGBojjveZsGoLrMRxDWb7GiJRymuDYUx69OhsZRUKMgMsfFqJB2/i57Q+A==", "zipcode"=>"", "commit"=>"Search!"}
   Rendered searches/search.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 240ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.237.38.221 at 2018-12-21 21:07:00 +0000
+Cannot render console from 71.237.38.221! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
